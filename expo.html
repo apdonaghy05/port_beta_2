@@ -53,10 +53,27 @@
 
 </div>
 
-
 <div class="hero animated fadeInUp minus1">
-  <img class="heroMargin" src="images/expo_hero.jpg">
+<picture class="heroMargin">
+  <source media="(max-width: 600px)" srcset="images/expo_hero_small.jpg">
+  <source media="(max-width: 1200px)" srcset="images/expo_hero_med.jpg">
+  <img src="images/expo_hero.jpg" alt="Chris standing up holding his daughter Elva">
+</picture>
 </div>
+
+<!-- <div class="hero animated fadeInUp minus1">
+<div class="heroMargin">
+  <source media="(min-width: 650px)" srcset="images/gg_b.jpg">
+  <source media="(min-width: 465px)" srcset="images/gg_y.jpg">
+  <img src="images/expo_hero.jpg" alt="expo">
+</div>
+</div> -->
+
+<!-- <div class="hero animated fadeInUp minus1">
+  <img class="heroMargin" src="images/expo_hero_small.jpg" srcset="images/expo_hero_med.jpg 1000w, images/expo_hero.jpg 2000w" alt="expo">
+</div>
+ -->
+<!-- <img src="small.jpg" srcset="medium.jpg 1000w, large.jpg 2000w" alt="yah"> -->
 
 <section class="wrap_1 flexCopy sectionInfo animated fadeInUp">
   <div class="fifty mar_right baseSize"> 
