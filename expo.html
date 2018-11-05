@@ -54,10 +54,10 @@
 </div>
 
 <div class="hero animated fadeInUp minus1">
-<picture class="heroMargin">
+<picture >
   <source media="(max-width: 600px)" srcset="images/expo_hero_small.jpg">
   <source media="(max-width: 1200px)" srcset="images/expo_hero_med.jpg">
-  <img src="images/expo_hero.jpg" alt="Chris standing up holding his daughter Elva">
+  <img class="heroMargin" src="images/expo_hero.jpg" alt="expo">
 </picture>
 </div>
 
@@ -155,19 +155,19 @@ $(document).ready(function() {
 });
 
 
-var images = [];
-function preload() {
-    for (var i = 0; i < arguments.length; i++) {
-        images[i] = new Image();
-        images[i].src = preload.arguments[i];
-    }
-}
+// let images = [];
+// function preload() {
+//     for (var i = 0; i < arguments.length; i++) {
+//         images[i] = new Image();
+//         images[i].src = preload.arguments[i];
+//     }
+// }
 
-//-- usage --//
-preload(
-    "https://apdonaghy05.github.io/port_beta_2/images/expo_hero.jpg",
+// //-- usage --//
+// preload(
+//     "https://apdonaghy05.github.io/port_beta_2/images/expo_hero.jpg",
  
-)
+// )
 
 
 
