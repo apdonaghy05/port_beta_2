@@ -50,77 +50,59 @@
 <nav class="right" ><a href="index.html">PORTFOLIO</a><p>|</p><a href="#">INFO</a></nav>
 </header>
 
-    <div class="clear flex row structure">
-    
-        <div class="flex element a animated fadeInUp">
-          <div class="content blue">
-              <a href="gg.html" class="overlay ov_red">
-                <div class="text">GLORIOUS GREENS</div>
-              </a>
-          </div>
-        </div>
-
-        <div class="flex element b animated fadeInUp">
-          <div class="content grey">
-              <a href="nausicaa.html" class="overlay ov_green">
-                <div class="text">NAUSICAA FC</div>
-              </a>
-          </div>
-        </div>
-
-        <div class="flex col structure-1-2-1 animated fadeInUp">
-          <div class="flex element c">
-            <div class="content expo">
-              <a href="expo.html" class="overlay ov_blue">
-                <div class="text">EXPO 91</div>
-              </a>
-            </div>
-          </div>
-          <div class="flex element d">
-            <div class="content nsp">
-              <a href="nsp.html" class="overlay ov_green">
-                <div class="text">NICKERSON ST. PAINTING</div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="flex element e animated fadeInUp">
-          <div class="content bounce">
-              <a href="toy.html" class="overlay ov_pink">
-                <div class="text">TOY DESIGN</div>
-              </a>
-          </div>
-        </div>
-      
-      <div class="flex element f animated fadeInUp">
-          <div class=" content posters">
-              <a href="poster_page/posters.html" class="overlay ov_yellow">
-                <div class="text">POSTERS</div>
-              </a>
-          </div>
-        </div>
-      
-             <div class="flex element a animated fadeInUp">
-          <div class=" content web">
-              <a href="web.html" class="overlay ov_blue">
-                <div class="text">WEB PROJECTS</div>
-              </a>
-          </div>
-        </div>
-
-        <div class="flex element b animated fadeInUp">
-          <div class="content essentials">
-              <a href="#" class="overlay ov_red">
-                <div class="text">IAMS ESSENTIALS</div>
-              </a>
-          </div>
-        </div>
-      
- 
-    </div>
 
 </div>
+
+<article class="mar_top_large animated fadeInUp">
+<div class="wrap_1 flexCopy">
+<div class="fifty minus1 margin_bottom_1 mar_right_small">
+  <img class="oneHundred" src="images/fesc_web.jpg">
+</div>
+
+<div class="fifty margin_bottom_1">
+  <div class="mar_right baseSize"> 
+  <h1>floridaenergy.edu</h1>
+  <p class="copy">This is a series of posters I designed for the Seattle non-profit, Neighborhood Farmers Market Alliance. They were in need of a poster for an upcomming event they called, "Glorious Greens." Each poster has custom lettering and three different types of greens all hand-drawn. <a href="http://floridaenergy.ufl.edu/">Original Site</a></p>
+  </div>
+ <a class="webLink" href="https://apdonaghy05.github.io/fesc_redesign_2/index.html">View Site</a>
+</div>
+
+</div>
+
+
+<div class="wrap_1 flexCopy">
+<div class="fifty minus1 margin_bottom_1 mar_right_small">
+  <img class="oneHundred" src="images/pv_web.jpg">
+</div>
+<div class="fifty margin_bottom_1">
+   <div class="mar_right baseSize"> 
+  <h1>playvisions.com</h1>
+  <p class="copy">This is a series of posters I designed for the Seattle non-profit, Neighborhood Farmers Market Alliance. They were in need of a poster for an upcomming event they called, "Glorious Greens." Each poster has custom lettering and three different types of greens all hand-drawn.</p>
+  </div>
+
+   <a class="webLink" href="https://www.playvisions.com/64/home-page.htm">View Site</a>
+</div>
+</div>
+
+
+<div class="wrap_1 flexCopy">
+<div class="fifty minus1 margin_bottom_1 mar_right_small">
+  <img class="oneHundred" src="images/sa_web.jpg">
+</div>
+<div class="fifty margin_bottom_1">
+   <div class="mar_right baseSize"> 
+  <h1>sandsalive.com</h1>
+  <p class="copy">This is a series of posters I designed for the Seattle non-profit, Neighborhood Farmers Market Alliance. They were in need of a poster for an upcomming event they called, "Glorious Greens." Each poster has custom lettering and three different types of greens all hand-drawn.</p>
+  </div>
+
+   <a class="webLink" href="http://www.sandsalive.com/home/">View Site</a>
+</div>
+</div>
+</article>
+
+
+<div class="seperator"></div>
+
 <footer class="plus1">
   <div>
     <a href="https://www.instagram.com/drewberz05/"><i class="fab fa-instagram"></i></a>
@@ -139,7 +121,7 @@ $(document).ready(function() {
         /* Check the location of each desired element */
         $('.fade').each( function(i){
             
-            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_object = $(this).offset().top + ($(this).outerHeight()/3);
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             
             /* If the object is completely visible in the window, fade it it */
@@ -156,6 +138,24 @@ $(document).ready(function() {
     });
     
 });
+
+
+// var images = [];
+// function preload() {
+//     for (var i = 0; i < arguments.length; i++) {
+//         images[i] = new Image();
+//         images[i].src = preload.arguments[i];
+//     }
+// }
+
+// //-- usage --//
+// preload(
+//     "https://apdonaghy05.github.io/port_beta_2/images/nausicaa_hero.jpg",
+ 
+// )
+
+
+
     </script>
 
   
