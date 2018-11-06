@@ -398,6 +398,10 @@ h2{
   display:flex;
 }
 
+.flexCopy_2{
+  display:flex;
+}
+
 .copy{
   color:grey;
   font-family: 'Source Sans Pro', sans-serif;
@@ -566,7 +570,7 @@ h2{
   width:100%;
 }
 
-.flexCopy{
+.flexCopy_2{
   display: block;
 }
 }
